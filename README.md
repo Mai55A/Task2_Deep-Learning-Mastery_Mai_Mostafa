@@ -322,3 +322,7 @@ First Dense layer contains hundreds of thousands of parameters.
 High parameter count → high capacity → high risk of memorizing training data.
 
 Regularization techniques (Dropout, L2, EarlyStopping) help mitigate this.
+link google colab
+https://colab.research.google.com/drive/1UcbJcR1vaeOstTS83hRy207LRunTlYHK#scrollTo=Xlq4PG-AX4TT
+
+م
