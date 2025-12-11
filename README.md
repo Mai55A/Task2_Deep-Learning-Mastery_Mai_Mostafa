@@ -1,3 +1,50 @@
+# Deep Learning & Neural Networks — MNIST Classification Project
+
+## Project Overview
+This project explores the training and analysis of convolutional neural networks (CNNs) for handwritten digit recognition using the MNIST dataset. It focuses on understanding model behavior, generalization, and the effects of various optimization and regularization techniques.
+
+---
+
+## Notebook Sections
+The project notebook is divided into two main parts:
+
+### **Part 1 — Core Model Understanding & Prediction Behavior**
+- **Task 1:** Deep Prediction Analysis — analyze model predictions on selected test samples.  
+- **Task 2:** Custom Image Generalization Test — evaluate model performance on user-created digits.  
+- **Task 3:** Epoch-Based Learning Curve Exploration — study training dynamics with different epochs.  
+- **Task 4:** EarlyStopping Behavior Analysis — investigate early stopping as a regularization method.
+
+### **Part 2 — Regularization & Optimization Mastery**
+- **Task 5:** Dropout Ablation Study — examine how dropout rates affect overfitting and representation learning.  
+- **Task 6:** L2 Regularization Experiment — test various L2 values and their impact on weight magnitude and generalization.  
+- **Task 7:** Optimizer Comparison Challenge — compare SGD, SGD with momentum, Adam, and AdamW in terms of convergence and stability.  
+- **Task 8:** Batch Size & Gradient Noise Experiment — analyze the effect of batch size on training noise and generalization.  
+- **Task 9:** Activation Function Swap — explore ReLU, Tanh, Softsign, and GELU effects on gradient flow and performance.  
+- **Task 10:** Weight Inspection & Model Capacity Analysis — study learned weights and the impact of high model capacity.
+
+---
+
+## How to Run the Notebook
+1. Clone the repository:
+   ```bash
+   git clone <your-repo-url>
+   cd <your-project-folder>
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
+pip install -r requirements.txt
+jupyter notebook notebook.ipynb
+
+All plots, results, and predictions are saved in the results/ folder.
+Sample Results
+Task 1 — Prediction Analysis
+
+Task 5 — Dropout Ablation
+
+Task 7 — Optimizer Comparison
+
+All additional plots and outputs are saved in the results/ folder for review
+
 📘 README — ML Assignment (Part 1 & Part 2)
 Digit Classification using Neural Networks — Comprehensive Study
 📍 Part 1 — Fundamental MNIST Experiments
